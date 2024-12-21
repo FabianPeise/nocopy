@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><title>Werkzeug zum Verschlüsseln</title>
+    <link href="peisearial.woff" rel="stylesheet">
+
+
+    <style>
+
+:root {
+color-scheme: dark;
+}
+
+.encrypted {
+    font-family: peisearial;
+}
+
+@font-face {
+ font-family: 'peisearial';
+ src: url('peisearial.woff')format('woff');
+}
+    </style>
+</head>
+  
+<body>
+ 
+    <textarea id="inputField" cols="40" rows="10"></textarea>
+    <br>
+    <button onclick="sonder();">codieren</button>
+    <textarea id="outputText" cols="40" rows="10"></textarea>
+         
+<script>
+    var inputText;
+    function sonder() {
+    inputText = document.querySelector("#inputField");
+    document.getElementById("outputText").innerHTML = inputText.value
+    //.replaceAll(" ","É")
+    .replaceAll("e","ɑ").replaceAll("n","ɒ").replaceAll("i","ɓ").replaceAll("r","ɔ").replaceAll("t","ɕ").replaceAll("s","ɖ").replaceAll("a","ɗ").replaceAll("d","ɘ").replaceAll("h","ɚ").replaceAll("u","ɛ").replaceAll("l","ɜ").replaceAll("g","ɝ").replaceAll("o","ɞ").replaceAll("c","ɟ").replaceAll("m","ɠ").replaceAll("b","ɣ").replaceAll("f","ɦ").replaceAll(".","ɨ").replaceAll("k","ɩ").replaceAll("w","ɪ").replaceAll("z","ɫ").replaceAll(",","ɬ").replaceAll("S","ɭ").replaceAll("p","ɮ").replaceAll("ü","ɯ").replaceAll("v","ɰ").replaceAll("D","ɱ").replaceAll("ä","ɲ").replaceAll("A","ɳ").replaceAll("B","ɴ").replaceAll("M","ɵ").replaceAll("E","ɶ").replaceAll("-","ɷ").replaceAll("K","ɸ").replaceAll("G","ɹ").replaceAll("F","ɺ").replaceAll("W","ɻ").replaceAll("P","ɼ").replaceAll("0","ɽ").replaceAll("T","ɾ").replaceAll("H","ʀ").replaceAll("R","ʁ").replaceAll("V","ʂ").replaceAll("ö","ʄ").replaceAll("1","ʅ").replaceAll("L","ʆ").replaceAll("I","ʇ").replaceAll("N","ʈ").replaceAll("U","ʉ").replaceAll("J","ʊ").replaceAll("2","ʋ").replaceAll("6","ʌ").replaceAll("ß","ʍ").replaceAll("Z","ʎ").replaceAll("C","ʑ").replaceAll("j","ʒ").replaceAll("O","ʓ").replaceAll("3","ʔ").replaceAll("y","ʕ").replaceAll("5","ʖ").replaceAll("9","ʗ").replaceAll("4","ʘ").replaceAll("8","ʙ").replaceAll("7","ʚ").replaceAll("x","ʛ").replaceAll("/","ʜ").replaceAll("q","ʝ").replaceAll("Ö","ʞ").replaceAll("Q","ʡ").replaceAll("Ü","ʢ").replaceAll("Ä","ʣ").replaceAll("&","ϴ").replaceAll("ɑ","n").replaceAll("ɒ","e").replaceAll("ɓ","r").replaceAll("ɔ","i").replaceAll("ɕ","s").replaceAll("ɖ","t").replaceAll("ɗ","d").replaceAll("ɘ","a").replaceAll("ɚ","u").replaceAll("ɛ","h").replaceAll("ɜ","g").replaceAll("ɝ","l").replaceAll("ɞ","c").replaceAll("ɟ","o").replaceAll("ɠ","b").replaceAll("ɣ","m").replaceAll("ɦ",".").replaceAll("ɨ","f").replaceAll("ɩ","w").replaceAll("ɪ","k").replaceAll("ɫ",",").replaceAll("ɬ","z").replaceAll("ɭ","p").replaceAll("ɮ","S").replaceAll("ɯ","v").replaceAll("ɰ","ü").replaceAll("ɱ","ä").replaceAll("ɲ","D").replaceAll("ɳ","B").replaceAll("ɴ","A").replaceAll("ɵ","E").replaceAll("ɶ","M").replaceAll("ɷ","K").replaceAll("ɸ","-").replaceAll("ɹ","F").replaceAll("ɺ","G").replaceAll("ɻ","P").replaceAll("ɼ","W").replaceAll("ɽ","T").replaceAll("ɾ","0").replaceAll("ʀ","R").replaceAll("ʁ","H").replaceAll("ʂ","ö").replaceAll("ʄ","V").replaceAll("ʅ","L").replaceAll("ʆ","1").replaceAll("ʇ","N").replaceAll("ʈ","I").replaceAll("ʉ","J").replaceAll("ʊ","U").replaceAll("ʋ","6").replaceAll("ʌ","2").replaceAll("ʍ","Z").replaceAll("ʎ","ß").replaceAll("ʑ","j").replaceAll("ʒ","C").replaceAll("ʓ","3").replaceAll("ʔ","O").replaceAll("ʕ","5").replaceAll("ʖ","y").replaceAll("ʗ","4").replaceAll("ʘ","9").replaceAll("ʙ","7").replaceAll("ʚ","8").replaceAll("ʛ","/").replaceAll("ʜ","x").replaceAll("ʝ","Ö").replaceAll("ʞ","q").replaceAll("ʡ","Ü").replaceAll("ʢ","Q").replaceAll("ʣ","&").replaceAll("ϴ","Ä")}
+</script>
+
+
+</body>  
+</html>
